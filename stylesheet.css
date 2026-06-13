@@ -1,0 +1,224 @@
+/* Top Navigation */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Left Logo */
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    width: 494px;
+}
+/* All the Links */
+.links{
+    display:flex;
+    color: white;   
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: fit-content;
+    margin: 8px;
+    cursor: pointer;
+}
+/* Link Hover State */
+.links:hover{
+    color: blue;
+    text-decoration: underline;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+/* Flexbox for all the links */
+.lflex{
+    display: flex;
+    width: 395px;
+}
+/* Header Main Flex */
+.mflex{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2937;
+    align-items: center;
+
+    
+}
+
+/* Hero Section */
+.hero-main{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    gap:200px;
+    align-items: center;
+}
+
+
+.hero-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.hero-title{
+    font-weight: 900;
+    color:#F9FAF8;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.hero-sec{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+    width: 494px;
+
+
+}
+
+button{
+    display: inline-flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.video{
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+
+}
+
+/* Image and text section */
+
+.box-flex{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 80px;
+    
+
+}
+.sub-flex{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 4px;
+   
+    
+    
+}
+
+
+.blue-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    
+
+
+}
+.box-text{
+    width: 150px;
+    color: grey;
+    text-align: center;
+}
+/* Quote Section */
+
+.quote-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text{
+    width:600px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #1F2937;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.text-two{
+    display: flex;
+    width: 600px;
+    justify-content: right;
+    font-weight: bold;
+}
+
+/* Second Last Section */
+
+.sm-flex{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3882f6;
+    width: fit-content;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sl-flex{
+    display: flex;
+    flex-direction: column;
+}
+.sl-text{
+    color:white;
+    font-size: 20px;
+}
+.sl-text-two{
+    color: white;
+    font-size: 14px;
+}
+.blue-box-button{
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Final footer */
+
+.footer{
+    display: flex;
+    color: rgb(198, 187, 187);
+    font-size: 14px;
+    background-color:#1F2937 ;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
